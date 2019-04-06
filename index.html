@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Patterns </title>
+    <title>Patterns design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 <main>
@@ -36,11 +39,35 @@
 
         </p>
     </article>
+    <article>
+        <h3>3. Observer</h3>
+        <p>
+
+
+        </p>
+        <div class="products">
+            <button class="product" data-id="1">Item 1</button>
+            <button class="product" data-id="2">Item 2</button>
+            <button class="product" data-id="3">Item 3</button>
+            <button class="product" data-id="4">Item 4</button>
+        </div>
+        <div class="basket">
+            <h3 class="basket__title">Basket</h3>
+            <ul class="basket"></ul>
+        </div>
+        <div class="buy-modal buy-modal_hide">
+            <h3 class="buy-modal__title"> Congratulate! </h3>
+            <span class="buy-modal__message"></span></div>
+
+
+    </article>
 
 </main>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="patterns/module.js"></script>
 <script src="patterns/singleton.js"></script>
+<script src="patterns/observer.js"></script>
 </body>
 </html>

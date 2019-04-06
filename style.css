@@ -1,0 +1,19 @@
+.product{
+    display: block;
+}
+.buy-modal{
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    left: 0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: skyblue;
+}
+.buy-modal_hide{
+    display: none;
+}

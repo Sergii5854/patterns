@@ -17,3 +17,18 @@
 .buy-modal_hide{
     display: none;
 }
+
+/*   Decorator  */
+
+.input__clear{
+    margin-left: -20px;
+    cursor: pointer;
+
+}
+.input__field{
+    padding-right: 30px;
+}
+.input__label{}
+.input__wrong{
+    color: red;
+}
